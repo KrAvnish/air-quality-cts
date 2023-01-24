@@ -1,0 +1,28 @@
+{
+  "user": [
+    {},
+    {
+      "id": "admin",
+      "name": "Admin",
+      "password": "admin1",
+      "email": "ad@gmail.com",
+      "phone": "",
+      "country": "india",
+      "address": "",
+      "gender": "male"
+    },
+    {
+      "id": "Avnishr",
+      "name": "Avnish",
+      "password": "Aks123",
+      "email": "aks123@gmail.com",
+      "phone": "",
+      "country": "india",
+      "address": "",
+      "gender": "male"
+    }
+  ]
+}
+
+
+// npx json-server --watch db.json --port 9000
