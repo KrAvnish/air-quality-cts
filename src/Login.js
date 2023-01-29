@@ -38,6 +38,10 @@ sessionStorage.clear();
         }
     }
 
+    // const diffToast = () => {
+    //     alert("Login Successfull");
+    // }
+
     // const ProceedLoginusingAPI = (e) => {
     //     e.preventDefault();
     //     if (validate()) {
@@ -108,7 +112,8 @@ sessionStorage.clear();
                             </div>
                         </div>
                         <div className="card-footer">
-                            <button type="submit" className="btn btn-primary">Login</button> |
+                            {/* <button type="submit" className="btn btn-primary" onClick={diffToast}>Login</button> */}
+                            <button type="submit" className="btn btn-primary" >Login</button> |
                             <Link className="btn btn-success" to={'/register'}>New User</Link>
                         </div>
                     </div>
